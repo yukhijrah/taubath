@@ -12,5 +12,9 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('Jarvis');
+});
+
+Route::get('/profile', function () {
+    return view ('profile');
 });
