@@ -1,1 +1,1 @@
-ini view dari profile
+<h1>ini profile</h1>
