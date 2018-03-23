@@ -30,7 +30,7 @@ class PostsSeeder extends Seeder
         		'content' => $faker->text,
         		'image' => $faker->imageUrl($width = 640,
         			$height = 480),
-        		'author' => $faker->name
+        		// 'author' => $faker->name
         	]);
         }
     }
